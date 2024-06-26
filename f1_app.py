@@ -39,8 +39,8 @@ with st.sidebar:
 
 if submitted:
     print(driverSel)
-    # lapTimingDetails = driver_trace.plot_traces(int(yearSel), raceSel, sessionSel, driverSel, lapSelect)
-    compareDrivers = trace_options.fastestLapTrace(int(yearSel), raceSel, sessionSel, driverSel, driver2Sel)
+    lapTimingDetails = driver_trace.plot_traces(int(yearSel), raceSel, sessionSel, driverSel, lapSelect)
+    # compareDrivers = trace_options.fastestLapTrace(int(yearSel), raceSel, sessionSel, driverSel, driver2Sel)
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.pyplot(lapTimingDetails)
