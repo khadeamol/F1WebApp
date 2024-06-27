@@ -54,8 +54,6 @@ with st.sidebar:
 
         # driver2Sel = st.text_input("Add Second Driver for comparison")
 
-        
-#compareDrivers = trace_options.fastestLapTrace(int(yearSel), raceSel, sessionSel, driverSel, driver2Sel)
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.pyplot(lapTimingDetails)
